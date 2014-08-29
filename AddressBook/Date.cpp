@@ -13,7 +13,7 @@ using namespace std;
     
 bool Date::ComparedTo(Date date) const
 {
-    return (date.year == year && date.month == month && date.day == day);
+    return (date.month == month && date.day == day);
 };
     
 string Date::Format()
